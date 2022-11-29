@@ -29,7 +29,6 @@ refs.startBtn.setAttribute('disabled', true);
 refs.startBtn.addEventListener('click', onClick);
 
 const setFlatpickr = flatpickr(refs.timePicker, {
-  enableTime: true,
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
